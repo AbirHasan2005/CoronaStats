@@ -105,7 +105,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "package CURL is not installed ..
 
 menu() {
 
-printf "\n\n\e[0;91m>>>Please read \e[1;91mREADME.md\e[0;91m file before using this script<<<\n\n\e[1;92m[\e[1;93m01\e[1;92m] \e[1;93mCountry wise stats\e[0m			\e[1;92m[\e[1;93m02\e[1;92m] \e[1;93mLoad Corona-Stats Source 1 (updated once a day from John Hopkins)\n"
+printf "\n\e[0;91m>>>Please read \e[1;91mREADME.md\e[0;91m file before using this script<<<\e[1;95m\n\n		CoronaStats \e[1;96mv1.3-BETA\n\n\e[1;92m[\e[1;93m01\e[1;92m] \e[1;93mCountry wise stats\e[0m			\e[1;92m[\e[1;93m02\e[1;92m] \e[1;93mLoad Corona-Stats Source 1 (updated once a day from John Hopkins)\n"
 printf "\e[1;92m[\e[1;93m03\e[1;92m] \e[1;93mConfirmed Cases Graph (WIP)\e[0m	\e[1;92m[\e[1;93m04\e[1;92m] \e[1;93mLoad Corona-Stats Source 2 (updated every 15 minutes from worldometers.info)\n"
 printf "\e[1;92m[\e[1;93m05\e[1;92m] \e[1;93mState wise api (Only for US)       \e[1;92m[\e[1;93m06\e[1;92m] \e[1;93mMinimal Mode - remove the borders and padding from table\n"
 printf "\e[1;92m[\e[1;93m07\e[1;92m] \e[1;93mGet Top [Number] List		\e[1;92m[\e[1;93m08\e[1;92m] \e[1;93mContact & Social Sites\n"
@@ -167,7 +167,7 @@ printf "\n\n\e[0;92mGithub: \e[1;96mhttps://github.com/AbirHasan2005\n\e[0;92mIn
 bash coronastats.sh
 
 elif [[ $option == 0 || $option == 00 ]]; then
-printf "\n\e[1;92mFor any feedback & chat\njoin Telegram Group: \e[1;96mhttp://t.me/linux_repo\e[0m\n"
+printf "\n\e[1;92mFor any problem report, help, suggestion & chat\njoin Telegram Group: \e[1;96mhttp://t.me/linux_repo\e[0m\n"
 sleep 1.8
 printf "\n\e[0;91mExiting ...\n\e[0m"
 exit 1
