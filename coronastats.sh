@@ -167,7 +167,7 @@ printf "\n\n\e[0;92mGithub: \e[1;96mhttps://github.com/AbirHasan2005\n\e[0;92mIn
 bash coronastats.sh
 
 elif [[ $option == 0 || $option == 00 ]]; then
-printf "\n\e[1;92mFor any problem report, help, suggestion & chat\njoin Telegram Group: \e[1;96mhttp://t.me/linux_repo\e[0m\n"
+printf "\n\e[1;92mFor any feedback & chat\njoin Telegram Group: \e[1;96mhttp://t.me/linux_repo\e[0m\n"
 sleep 1.8
 printf "\n\e[0;91mExiting ...\n\e[0m"
 exit 1
