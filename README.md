@@ -30,7 +30,7 @@ You can also report problems, issus, mistakes, feedback and suggestions to my Te
 ### Twitter: https://twitter.com/AbirHasan2005
 ### Instagram: https://Instagram.com/AbirHasan2005
 ### Telegram: http://t.me/AbirHasan2005
-### Facebook: Sorry Can't Share My Facebook Profile With You :)
+### Facebook: https://facebook.com/AbirHasan2005
 
 ## Country Codes/Names:
 To find information of a perticular country you have to enter country code or name.
