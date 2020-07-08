@@ -7,6 +7,7 @@ This is easy to Operate. This shows list, graph and other things from https://co
 Must try this script and feedback.
 
 
+![Screenshot](https://github.com/AbirHasan2005/CoronaStats/blob/master/capture.jpg)
 ## How to use:
 First Install CURL
 ```
