@@ -7,6 +7,13 @@ This is easy to Operate. This shows list, graph and other things from https://co
 Must try this script and feedback.
 
 
+## What's New:
+1. Added Update option
+2. Add setup for Termux
+3. More Improvements
+4. More correction
+5. More Fast
+
 ![Screenshot](https://github.com/AbirHasan2005/CoronaStats/blob/master/capture.jpg)
 ## How to use:
 First Install CURL
