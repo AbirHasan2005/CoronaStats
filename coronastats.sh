@@ -175,7 +175,7 @@ menu
 elif [[ $option == 9 || $option == 09 ]]; then
 printf "\n\e[1;91mUpdate will delete current directory ...\nand then it will install this dircetory again from GitHub ...\n"
 sleep 2
-printf "\n\e[1;92mRunning \e[1;94mupdate.sh\e[1;92m script\n[0m"
+printf "\n\e[1;92mRunning \e[1;94mupdate.sh\e[1;92m script\n\e[0m"
 sleep 3
 bash update.sh
 cd ..
