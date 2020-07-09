@@ -119,7 +119,7 @@ printf "\n\e[1;92m[\e[1;93m00\e[1;92m] \e[1;93mExit\e[0m"
 read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Choose an option: \e[1;92m' option
 
 if [[ $option == 1 || $option == 01 ]]; then
-printf "\n\n\e[1;92mEnter your country name/code ...\nExamples: BD, UK, US, IND, JP etc. [Country Code]\n           Bangladesh, India, Italy, Japan etc. [Country Name]"
+printf "\n\n\e[1;92mEnter your country name/code ...\nExamples: BD, UK, US, IND, JP etc. [Country Code]\n          Bangladesh, India, Italy, Japan etc. [Country Name]"
 read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Enter your country name/code: \e[1;92m' optiona
 printf "\n\n\e[1;92mPlease Wait ...\nShowing from source 2\e[0m\n"
 sleep 5
@@ -133,7 +133,7 @@ curl https://corona-stats.online
 menu
 
 elif [[ $option == 3 || $option == 03 ]]; then
-printf "\n\n\e[1;92mEnter your country name/code ...\nExamples: BD, UK, US, IND, JP etc. [Country Code]\n           Bangladesh, India, Italy, Japan etc. [Country Name]"
+printf "\n\n\e[1;92mEnter your country name/code ...\nExamples: BD, UK, US, IND, JP etc. [Country Code]\n          Bangladesh, India, Italy, Japan etc. [Country Name]"
 read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Enter your country name/code: \e[1;92m' optionb
 printf "\n\n\e[1;92mPlease Wait ...\nShowing results ...\e[0m\n"
 sleep 5
@@ -147,7 +147,7 @@ curl https://corona-stats.online?source=2
 menu
 
 elif [[ $option == 5 || $option == 05 ]]; then
-printf "\n\n\e[1;92mEnter your country name/code ...\nExamples: BD, UK, US, IND, JP etc. [Country Code]\n           Bangladesh, India, Italy, Japan etc. [Country Name]"
+printf "\n\n\e[1;92mEnter your country name/code ...\nExamples: BD, UK, US, IND, JP etc. [Country Code]\n          Bangladesh, India, Italy, Japan etc. [Country Name]"
 read -p $'\n\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m]\e[1;93m Enter your country name/code: \e[1;92m' optionc
 printf "\n\n\e[1;92mPlease Wait ...\nShowing results ...\e[0m\n"
 sleep 5
