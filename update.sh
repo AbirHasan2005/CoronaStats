@@ -1,5 +1,5 @@
 #!/bin/bash
-# Update Script for Deskify v1.8-BETA
+# Update Script for CoronaStats v1.3-BETA
 # Script created by @AbirHasan2005
 
 
@@ -12,18 +12,17 @@ command -v git > /dev/null 2>&1 || { echo >&2 "Package GIT is not installed ... 
 script() {
 
 clear
-printf "\n \e[1;92mUpdating \e[1;94mDeskify\e[1;92m ...\n\n"
+printf "\n \e[1;92mUpdating \e[1;94mCoronaStats\e[1;92m ...\n\n"
 sleep 1.5
 cd ..
-rm -rf Deskify
-git clone https://github.com/AbirHasan2005/Deskify
+rm -rf CoronaStats
+git clone https://github.com/AbirHasan2005/CoronaStats
 cd CoronaStats
-chmod +x deskify.sh
+chmod +x coronastats.sh
 printf "\n\e[1;92mRestarting ...\n\e[0m"
-bash deskify.sh
+bash coronastats.sh
 
 }
 
 dependencies
 script
-
