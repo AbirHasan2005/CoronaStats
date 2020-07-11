@@ -1,5 +1,5 @@
 #!/bin/bash
-# Update Script for CoronaStats v1.3-BETA
+# Update Script for CoronaStats v2.1-Stable
 # Script created by @AbirHasan2005
 
 
@@ -21,6 +21,7 @@ cd CoronaStats
 chmod +x coronastats.sh
 printf "\n\e[1;92mRestarting ...\n\e[0m"
 bash coronastats.sh
+cd ..
 
 }
 

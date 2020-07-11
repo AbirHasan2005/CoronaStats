@@ -1,4 +1,4 @@
-# CoronaStats v1.3-BETA
+# CoronaStats v2.1-Stable
 ## About:
 This is a CURL based Linux Bash script. This is made for easy way to track Coronavirus and Get Stats. This tool will show you Stats, Graph of a particular country, Country Wise stats, State wise api, Minimal Mode - remove the borders and padding from table, Get top N Countries stars(You can make your own top list) and Confirmed Cases Graph (WIP).
 
@@ -8,11 +8,10 @@ Must try this script and feedback.
 
 
 ## What's New:
-1. Added Update option
-2. Add setup for Termux
-3. More Improvements
-4. More correction
-5. More Fast
+1. More Improvements
+2. More correction
+3. More Fast
+4. More Stablility
 
 ![Screenshot](https://github.com/AbirHasan2005/CoronaStats/blob/master/capture.jpg)
 ## How to use:
@@ -50,5 +49,3 @@ Bangladesh, India, Italy, Japan etc. [Countrynames]
 
 ## This is in development!
 I am developing this for a long time. Must feedback to my Telegram group to make it for easy for me to develop. I will add more features soon.
-
-### CoronaStats v2.0-Stable Releasing Soon!
