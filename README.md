@@ -52,5 +52,5 @@ I am developing this for a long time. Must feedback to my Telegram group to make
 
 ## Donate
 
-[![paypal](https://www.paypal.com/en_CY/i/scr/pixel.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5G6H26K52DPTJ)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/AbirHasan2005?locale.x=en_US)
 
