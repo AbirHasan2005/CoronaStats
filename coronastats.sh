@@ -98,8 +98,7 @@
 # Join My Telegram Group: http://t.me/linux_repo
 
 
-clear
-printf "\n\e[0;91m>>>Please read \e[1;91mREADME.md\e[0;91m file before using this script<<<"
+
 
 dependencies() {
 
@@ -108,8 +107,13 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "package CURL is not installed ..
 }
 
 
+trap 'printf "\n";partial;exit 1' 2
+
 menu() {
 
+
+clear
+printf "\n\e[0;91m>>>Please read \e[1;91mREADME.md\e[0;91m file before using this script<<<"
 printf "\n\e[1;96m"
 printf "\n ░█▀▀░█▀█░█▀▄░█▀█░█▀█░█▀█░█▀▀░▀█▀░█▀█░▀█▀░█▀▀"
 printf "\n ░█░░░█░█░█▀▄░█░█░█░█░█▀█░▀▀█░░█░░█▀█░░█░░▀▀█"
@@ -202,8 +206,8 @@ exit 1
 else
 printf "\n\e[1;93m [\e[1;91m!\e[1;93m] Invalid option!\n\n\e[1;92mFor any kind of help join Telegram Group: \e[4;96mhttp://t.me/linux_repo\e[0m\n"
 sleep 1
-fi
 
+fi
 }
 dependencies
 menu
