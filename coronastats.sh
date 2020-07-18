@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # Please do not copy any codes from here without giving me proper credits
 # This is my hard work
@@ -110,7 +109,6 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "package CURL is not installed ..
 trap 'printf "\n";partial;exit 1' 2
 
 menu() {
-
 
 clear
 printf "\n\e[0;91m>>>Please read \e[1;91mREADME.md\e[0;91m file before using this script<<<"
