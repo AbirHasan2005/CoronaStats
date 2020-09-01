@@ -110,7 +110,6 @@ trap 'printf "\n";partial;exit 1' 2
 
 menu() {
 
-clear
 printf "\n\e[0;91m>>>Please read \e[1;91mREADME.md\e[0;91m file before using this script<<<"
 printf "\n\e[1;96m"
 printf "\n ░█▀▀░█▀█░█▀▄░█▀█░█▀█░█▀█░█▀▀░▀█▀░█▀█░▀█▀░█▀▀"
