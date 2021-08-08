@@ -31,7 +31,6 @@ http://t.me/linux_repo
 You can also report problems, issus, mistakes, feedback and suggestions to my Telegram Group.
 
 
-### Blog: https://teletechstore.blogspot.com
 ### GitHub: https://github.com/AbirHasan2005
 ### Twitter: https://twitter.com/AbirHasan2005
 ### Instagram: https://Instagram.com/AbirHasan2005
